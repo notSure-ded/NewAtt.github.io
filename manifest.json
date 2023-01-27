@@ -1,14 +1,14 @@
 {
 	"name": "NEWAtt",
-	"short_name": "learnDS",
+	"short_name": "Nutrition",
 	"start_url": ".",
 	"display": "standalone",
 	"background_color": "#fff",
 	"description": "A news app.",
 	"icons": [
 	  {
-		"src": "x.ico",
-		"sizes": "256x256",
+		"src": "square.png",
+		"sizes": "512x512",
 		"type": "image/png"
 	  }
 	]
