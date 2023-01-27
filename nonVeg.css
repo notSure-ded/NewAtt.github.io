@@ -87,11 +87,39 @@ a.topp{
 
 }
 
-.lists{
+.lists.red{
 
-    border: 1px solid ;
-    width: 40vw;
+    border: 2px solid ;
+    width: 80vw;
     border-radius: 4px;
     font-weight: 200;
+    border-color: rgba(63, 32, 7, 0.603);
 
+}
+
+button.dec{
+
+    display: inline;
+    background-color: rgba(17, 209, 27, 0.26);
+    
+   
+}
+button.inc{
+display: inline;
+background-color: rgba(197, 58, 58, 0.61);
+
+
+}
+button.dec:hover{
+
+    background-color: rgb(43, 255, 0)
+}
+
+button.inc:hover{
+    background-color: rgba(255, 0, 0, 0.651);
+
+}
+.val{
+    float: right;
+   float: inline-end;
 }
