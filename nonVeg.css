@@ -46,46 +46,40 @@ h3{
     margin: 2vw;
 }
 li.top{
- 
-    text-shadow: 1px;
-    height: 1vw;
-    border: 1px solid rgb(24, 24, 12);
-    background-color: rgb(221, 121, 6);
-    font-size: 1.52vw;
-    border-radius: 2vw;
-    width: 14vw;
-    text-align: center;
-    font-weight: 500;
-    margin: 1vh;
-    nav-index: auto;
-    padding-bottom: 1vw;
-}
-
-li.top:hover{
-    
-    text-shadow: 1px;
-    height: 1vw;
-    border: 1px solid rgb(58, 57, 8);
-    background-color: rgb(238, 153, 25);
-    font-size: 1.7vw;
-    border-radius: 2vw;
-    width: 14vw;
-    text-align: center;
-    font-weight: 500;
-    margin: 1vh;
-    nav-index: auto;
-    padding-bottom: 1vw;
-   
+    margin-bottom: 3px;
 }
 a.topp{
-
+ 
+    background-color: rgba(230, 100, 7, 0.534);
     color: black;
-    font-size: 2vw;
-    padding-bottom: 2vh;
-    flex-direction: column;
-
-
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 1vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+ul.this{
+    /* background-color:rgba(255, 187, 110, 0.47); */
+    background-color: #a5e5bb81;
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 50vw;
+   margin: 2.6vw;
+   border: 1px solid black;
+   border-radius: 2vw;
+}
+
+a.topp:hover{
+    
+    background-color: rgba(230, 100, 7, 0.897);
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 1vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+   
+}
+
 
 .lists.red{
 
@@ -93,7 +87,7 @@ a.topp{
     width: 80vw;
     border-radius: 4px;
     font-weight: 200;
-    border-color: rgba(63, 32, 7, 0.603);
+    border-color: rgb(63, 32, 7);
 
 }
 
