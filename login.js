@@ -8,8 +8,8 @@ var pss="kunal567"
             
             if (username === admin && password === pss) {
                 
-                window.location.href="index.html";
-                alert("Login Success")
+                window.location.href="home.html";
+                alert("Login Success");
             } else {
                 
                 alert("Incorrect login information. Please try again.");
