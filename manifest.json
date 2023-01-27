@@ -1,0 +1,26 @@
+{
+	"author": "KunalSingh",
+	"name": "KunalSingh",
+	"short_name": "SKunal",
+	"description": "Nutrition dumb app",
+	"orientation": "portrait",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"background_color": "grey",
+	"theme_color": "#238ee0",
+	"icons": [
+		{
+			"src": "square.png",
+			"sizes": "48x48 72x72 96x96 128x128 192x192 256x256 512x512",
+			"type": "image/png"
+		}
+	],
+	"manifest_version": 3,
+	"version": "0.2",
+	"applications": {
+		"gecko": {
+			"id": "singhkunal981@gmail.com"
+		}
+	}
+}
