@@ -16,30 +16,32 @@ border: 1px solid black;
 border-radius: 2vw;
 text-align: center;
 }
-li.nav:hover , li.nav:active {
-height: 2.7vh;
-border: 1px solid rgb(58, 57, 8);
-background-color: rgb(221, 135, 6);
-font-size: 2.2vw;
-border-radius: 2vw;
-width: 15vw;
-align-content: center;
-text-align: center;
-font-weight: 600;
+.to:hover , .to:active {
+  height: 1vw;
+  border: 1px solid rgb(58, 57, 8);
+  background-color: rgb(190, 119, 12);
+  font-size: 2.4vw;
+  border-radius: 2vw;
+  width: 14vw;
+  text-align: center;
+  font-weight: 500;
+  margin: 1vh;
+  nav-index: auto;
+  padding-bottom: 2vw;
 
 }
-li.nav{
+.to{
     height: 1vw;
     border: 1px solid rgb(58, 57, 8);
     background-color: rgb(221, 135, 6);
-    font-size: 2vw;
+    font-size: 2.3vw;
     border-radius: 2vw;
     width: 14vw;
     text-align: center;
     font-weight: 500;
     margin: 1vh;
     nav-index: auto;
-    padding-bottom: 1vw;
+    padding-bottom: 2vw;
     }
 
 .dropbtn {
@@ -48,12 +50,13 @@ li.nav{
     background-color: rgb(236, 147, 13);
     font-size: 2vw;
     border-radius: 1vw;
-    width: 13vw;
+    width: 10vw;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 10vw;
     padding-bottom: 2vw;
-    font-size: 3vh;
+    font-size: 2vh;
+    
   }
   
 
@@ -174,5 +177,6 @@ margin-left: 10vw;
     margin: 1vh;
     text-align: center;
   }
+
   
   
