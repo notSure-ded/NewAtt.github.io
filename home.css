@@ -1,0 +1,178 @@
+
+body{
+    background-image: url("nutrition_background.jpg");
+    ;
+    
+    
+  
+}
+
+div.main-head{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ background-color: chocolate;
+ width: 36vw;
+margin: auto;
+border: 1px solid black;
+border-radius: 2vw;
+text-align: center;
+}
+li.nav:hover , li.nav:active {
+height: 2.7vh;
+border: 1px solid rgb(58, 57, 8);
+background-color: rgb(221, 135, 6);
+font-size: 2.2vw;
+border-radius: 2vw;
+width: 15vw;
+align-content: center;
+text-align: center;
+font-weight: 600;
+
+}
+li.nav{
+    height: 1vw;
+    border: 1px solid rgb(58, 57, 8);
+    background-color: rgb(221, 135, 6);
+    font-size: 2vw;
+    border-radius: 2vw;
+    width: 14vw;
+    text-align: center;
+    font-weight: 500;
+    margin: 1vh;
+    nav-index: auto;
+    padding-bottom: 1vw;
+    }
+
+.dropbtn {
+    height: 2.9vh;
+    border: 1px solid rgb(126, 27, 27);
+    background-color: rgb(236, 147, 13);
+    font-size: 2vw;
+    border-radius: 1vw;
+    width: 13vw;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 10vw;
+    padding-bottom: 2vw;
+    font-size: 3vh;
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0eb137;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+border-radius: 20px;
+margin-left: 10vw;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #a06d0e;}
+  div.footer{
+    color: #000000;
+    background-color: chocolate;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 490;
+    border: 0.25vw solid rgb(16, 26, 0);
+    border-radius: 1vw;
+    margin: 1px;
+    width: 40vw;
+  }
+  footer{
+    position: absolute;
+    margin-bottom: 0vw;
+    text-align: center;
+    bottom: 0;
+    background-color: rgb(17, 126, 62);
+    border-radius: 2vw;
+    
+    
+  }
+
+  div.selectMenu{
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: #a5e5bb;
+    width: 40vw;
+    border: 1px solid rgb(73, 49, 19);
+    font-size: 1.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500vw;
+    border-radius: 2vw;
+    font-size: 3vh;
+  }
+
+  img {
+    --s: 250px;   
+    --b: 8px;     
+    --g: 14px;  
+    --c: #26cf2e; 
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+  
+  img + img {
+    border-radius: 50%;
+  }
+  div.mealRec{
+    float: right;
+    position: absolute;
+    margin-left: 60vw;
+  }  
+  div.mealRec>a.meal>div.meal{
+    background-color: #26cf2e;
+    border: 1px solid black;
+    margin: 1vh;
+    text-align: center;
+  }
+  div.mealRec>a.NoMeal>div.NoMeal{
+    background-color: #ee1717;
+    border: 1px solid black;
+    margin: 1vh;
+    text-align: center;
+  }
+  div.mealRec>a.meal>div.meal:hover, div.mealRec>a.meal>div.meal:active{
+    background-color: #24a12b;
+    border: 1px solid black;
+    margin: 1vh;
+    text-align: center;
+  }
+  div.mealRec>a.NoMeal>div.NoMeal:hover, didiv.mealRec>a.NoMeal>div.NoMeal:active{
+    background-color: #b92424;
+    border: 1px solid black;
+    margin: 1vh;
+    text-align: center;
+  }
+  
+  
