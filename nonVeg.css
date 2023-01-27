@@ -33,12 +33,12 @@ h1, h2{
    }
 ul{
     /* background-color:rgba(255, 187, 110, 0.47); */
-    background-color: #a5e5bb81;
-    font-size: 17px;
-    box-sizing: border-box;
+   
+    
+    
     width: 90vw;
    margin: 2.6vw;
-   border: 1px solid black;
+   
    border-radius: 2vw;
 }
 
@@ -50,7 +50,7 @@ li.top{
 }
 a.topp{
  
-    background-color: rgba(230, 100, 7, 0.534);
+    background-color: rgba(230, 100, 7, 0.897);
     color: black;
     border: 1px solid;
     border-radius: 5px;
@@ -62,7 +62,7 @@ ul.this{
     background-color: #a5e5bb81;
     font-size: 17px;
     box-sizing: border-box;
-    width: 50vw;
+    width: 90vw;
    margin: 2.6vw;
    border: 1px solid black;
    border-radius: 2vw;
@@ -70,8 +70,9 @@ ul.this{
 
 a.topp:hover{
     
-    background-color: rgba(230, 100, 7, 0.897);
+    background-color: rgba(230, 70, 7, 0.986);
     color: black;
+    width: 10vw;
     border: 1px solid;
     border-radius: 5px;
     margin-top: 1vh;
@@ -116,9 +117,4 @@ button.inc:hover{
 .val{
     float: right;
    float: inline-end;
-}
-.count{
-
-    font-weight: 560;
-    
 }
