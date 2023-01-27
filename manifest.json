@@ -1,13 +1,13 @@
 {
-	"name": "NEWAtt",
-	"short_name": "Nutrition",
+	"name": "New-Attrition",
+	"short_name": "NewAtt",
 	"start_url": ".",
 	"display": "standalone",
 	"background_color": "#fff",
-	"description": "A news app.",
+	"description": "Be Healthy ,Be Alive",
 	"icons": [
 	  {
-		"src": "square.png",
+		"src": "logo.png",
 		"sizes": "512x512",
 		"type": "image/png"
 	  }
