@@ -28,7 +28,7 @@ h1, h2{
    margin: 2.5vw;
    border: 1px solid black;
    box-sizing: border-box;
-   border-radius: .8vw;
+   border-radius: .9vw;
    
 
    }
@@ -39,9 +39,9 @@ ul{
     box-sizing: border-box;
     width: 90vw;
    margin: 2.6vw;
-   border: 1px solid black;
+   border: 1px solid rgba(0, 0, 0, 0.897);
    border-radius: 2vw;
-   width: 50vw;
+   width: 95vw;
 }
 
 h3{
@@ -61,15 +61,50 @@ li.topmost{
 .link{
 
 color: black;
-font-size: 1.6vw;
+font-size: 1.7vw;
 font-size: 2vh;
 
 }
 .link:hover{
-    color: gray;
-    font-size: 1.7vw;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
     font-size: 2.1vh;
+    background-color: rgba(23, 241, 241, 0.541);
+    border-radius: 3px;
 
 }
+.ing{
+    border: 2px solid ;
+    width: 80vw;
+    border-radius: 4px;
+    font-weight: 200;
+    border-color: rgba(26, 158, 9, 0.671);
 
 
+}
+button.dec{
+
+    display: inline;
+    background-color: rgba(17, 209, 27, 0.26);
+    
+   
+}
+button.inc{
+display: inline;
+background-color: rgba(197, 58, 58, 0.61);
+
+
+}
+button.dec:hover{
+
+    background-color: rgb(43, 255, 0)
+}
+
+button.inc:hover{
+    background-color: rgba(255, 0, 0, 0.651);
+
+}
+.val{
+    float: right;
+   float: inline-end;
+}
