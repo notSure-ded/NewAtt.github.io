@@ -29,16 +29,12 @@ h1, h2{
    border: 1px solid black;
    box-sizing: border-box;
    
-
    }
+
 ul{
-    /* background-color:rgba(255, 187, 110, 0.47); */
-   
-    
-    
     width: 90vw;
    margin: 2.6vw;
-   
+   font-size: 22px;
    border-radius: 2vw;
 }
 
@@ -60,12 +56,13 @@ a.topp{
 ul.this{
     /* background-color:rgba(255, 187, 110, 0.47); */
     background-color: #a5e5bb81;
-    font-size: 17px;
+    font-size: 20px;
     box-sizing: border-box;
     width: 90vw;
    margin: 2.6vw;
    border: 1px solid black;
    border-radius: 2vw;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a.topp:hover{
@@ -117,4 +114,9 @@ button.inc:hover{
 .val{
     float: right;
    float: inline-end;
+}
+.count{
+
+    font-weight: 550;
+
 }
