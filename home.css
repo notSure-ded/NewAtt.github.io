@@ -10,52 +10,52 @@ body{
 div.main-head{
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  background-color: chocolate;
- width: 36vw;
+ width: 45vw;
 margin: auto;
 border: 1px solid black;
 border-radius: 2vw;
 text-align: center;
 }
 .to:hover , .to:active {
-  height: 1vw;
+ 
   border: 1px solid rgb(58, 57, 8);
   background-color: rgb(190, 119, 12);
-  font-size: 2.4vw;
+
   border-radius: 2vw;
   width: 14vw;
   text-align: center;
   font-weight: 500;
   margin: 1vh;
   nav-index: auto;
-  padding-bottom: 2vw;
+  
 
 }
 .to{
-    height: 1vw;
+    
     border: 1px solid rgb(58, 57, 8);
     background-color: rgb(221, 135, 6);
-    font-size: 2.3vw;
+    
     border-radius: 2vw;
     width: 14vw;
     text-align: center;
     font-weight: 500;
     margin: 1vh;
-    nav-index: auto;
-    padding-bottom: 2vw;
+    
+    
     }
 
 .dropbtn {
     height: 2.9vh;
     border: 1px solid rgb(126, 27, 27);
     background-color: rgb(236, 147, 13);
-    font-size: 2vw;
+   
     border-radius: 1vw;
     width: 10vw;
     text-align: center;
     font-weight: 600;
     margin-left: 10vw;
     padding-bottom: 2vw;
-    font-size: 2vh;
+    
     
   }
   
@@ -154,25 +154,27 @@ margin-left: 10vw;
     margin-left: 60vw;
   }  
   div.mealRec>a.meal>div.meal{
-    background-color: #26cf2e;
+    background-color: #26cf2fbd;
     border: 1px solid black;
     margin: 1vh;
     text-align: center;
+    color: #000000;
   }
   div.mealRec>a.NoMeal>div.NoMeal{
-    background-color: #ee1717;
+    background-color: #ee1717ab;
     border: 1px solid black;
     margin: 1vh;
     text-align: center;
+    color: #000000;
   }
   div.mealRec>a.meal>div.meal:hover, div.mealRec>a.meal>div.meal:active{
-    background-color: #24a12b;
+    background-color: #07f312;
     border: 1px solid black;
     margin: 1vh;
     text-align: center;
   }
   div.mealRec>a.NoMeal>div.NoMeal:hover, didiv.mealRec>a.NoMeal>div.NoMeal:active{
-    background-color: #b92424;
+    background-color: #ff0000;
     border: 1px solid black;
     margin: 1vh;
     text-align: center;
