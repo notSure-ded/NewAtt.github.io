@@ -1,0 +1,75 @@
+
+body{
+    background-image: url("nutrition_background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+    background-attachment: fixed;
+   
+
+}
+h1, h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: chocolate;
+    width: 36vw;
+   margin: auto;
+
+   border: 1px solid black;
+   border-radius: 2vw;
+   text-align: center;
+   }
+   p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    background-color: #0eb137;
+    width: 90vw;
+    /* background-color: rgba(136, 189, 248,.4); */
+    
+   margin: 2.5vw;
+   border: 1px solid black;
+   box-sizing: border-box;
+   border-radius: .8vw;
+   
+
+   }
+ul{
+    /* background-color:rgba(255, 187, 110, 0.47); */
+    background-color: #a5e5bb81;
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 90vw;
+   margin: 2.6vw;
+   border: 1px solid black;
+   border-radius: 2vw;
+   width: 50vw;
+}
+
+h3{
+    margin: 2vw;
+}
+
+li.topmost{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: double;
+    text-indent: 2px;
+  
+    border-radius: 2vw;
+    width: 30vw;
+}
+
+.link{
+
+color: black;
+font-size: 1.6vw;
+font-size: 2vh;
+
+}
+.link:hover{
+    color: gray;
+    font-size: 1.7vw;
+    font-size: 2.1vh;
+
+}
+
+
