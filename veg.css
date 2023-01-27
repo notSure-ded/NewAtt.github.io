@@ -50,27 +50,40 @@ h3{
 
 li.topmost{
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: double;
-    text-indent: 2px;
-  
+    border: 1px solid rgb(58, 57, 8);
+    background-color: rgb(221, 135, 6);
+    
     border-radius: 2vw;
-    width: 30vw;
+    width: 40vw;
+    text-align: center;
+    font-weight: 500;
+    margin: 1vh;
 }
 
 .link{
 
 color: black;
-font-size: 1.7vw;
-font-size: 2vh;
+border: 1px solid rgb(58, 57, 8);
+background-color: rgba(221, 135, 6, 0.959);
+
+border-radius: 2vw;
+width: 14vw;
+text-align: center;
+font-weight: 500;
+margin: 1vh;
 
 }
 .link:hover{
-    color: rgb(0, 0, 0);
-    font-size: 2vw;
-    font-size: 2.1vh;
-    background-color: rgba(23, 241, 241, 0.541);
-    border-radius: 3px;
+    
+color: black;
+border: 1px solid rgb(58, 57, 8);
+background-color: rgb(218, 107, 16);
+
+border-radius: 2vw;
+width: 14vw;
+text-align: center;
+font-weight: 550;
+margin: 1vh;
 
 }
 .ing{
