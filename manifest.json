@@ -1,26 +1,15 @@
 {
-	"author": "KunalSingh",
-	"name": "KunalSingh",
-	"short_name": "SKunal",
-	"description": "Nutrition dumb app",
-	"orientation": "portrait",
-	"start_url": "/",
-	"scope": "/",
+	"name": "NEWAtt",
+	"short_name": "learnDS",
+	"start_url": ".",
 	"display": "standalone",
-	"background_color": "grey",
-	"theme_color": "#238ee0",
+	"background_color": "#fff",
+	"description": "A news app.",
 	"icons": [
-		{
-			"src": "square.png",
-			"sizes": "48x48 72x72 96x96 128x128 192x192 256x256 512x512",
-			"type": "image/png"
-		}
-	],
-	"manifest_version": 3,
-	"version": "0.2",
-	"applications": {
-		"gecko": {
-			"id": "singhkunal981@gmail.com"
-		}
-	}
-}
+	  {
+		"src": "x.ico",
+		"sizes": "256x256",
+		"type": "image/png"
+	  }
+	]
+  }
